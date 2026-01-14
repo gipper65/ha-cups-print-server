@@ -1,4 +1,4 @@
-211212# Home Assistant CUPS Print Server Add-on Repository
+# Home Assistant CUPS Print Server Add-on Repository
 
 This repository contains a custom CUPS printing add-on for Home Assistant.
 
