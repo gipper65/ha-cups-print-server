@@ -1,0 +1,7 @@
+#  Paste to bottom of configuration.yaml file
+rest_command:
+  print_test_page:
+    url: http://homeassistant.local:5000/print
+    method: POST
+    content_type: 'application/json'
+    payload: '{"printer": "EPSON", "file": "/config/www/ptm.pdf"}'

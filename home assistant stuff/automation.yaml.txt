@@ -1,0 +1,13 @@
+alias: weekly test print
+description: ""
+triggers:
+  - trigger: time
+    at: "09:00:00"
+    weekday:
+      - thu
+conditions: []
+actions:
+  - action: rest_command.print_test_page
+    metadata: {}
+    data: {}
+mode: single
