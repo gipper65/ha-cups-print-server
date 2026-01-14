@@ -4,4 +4,4 @@ rest_command:
     url: http://homeassistant.local:5000/print
     method: POST
     content_type: 'application/json'
-    payload: '{"printer": "EPSON", "file": "/config/www/ptm.pdf"}'
+    payload: '{"printer": "EPSON", "file": "/config/www/ptm.pdf"}' # change the file to the correct name and path
